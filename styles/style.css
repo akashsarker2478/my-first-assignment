@@ -1,6 +1,11 @@
 
 
 
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -68,3 +73,84 @@ body{
     
 
 }
+.section-one{
+    margin: 115px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+}
+.section-one-text{
+    width: 517px;
+    height: 203px;
+    align-items: center;
+}
+.section-one-text h2{
+    margin: 0;
+    font-size: 42px;
+    font-weight: bold;
+}
+.section-one-text p{
+    font-size: 24px;
+    color: rgb(201, 199, 199);
+}
+.section-one-text a button{
+    width: 229px;
+    background-color: #4E47FF;
+    color:white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.section-one img{
+    float: right;
+    width: 400px;
+    height:325px;
+    border-radius: 48px;
+}
+.section-two{
+    background-color: rgb(230, 238, 238);
+    max-width: 1140px;
+    height:auto;
+    margin: 0 140px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 127px;
+   
+}
+.section-two-content{
+    padding:50px 142px ;
+}
+.section-two-content h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+    
+   
+    
+}
+.section-two-items{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:130px;
+   
+    
+}
+.section-two-items h3{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+
+}
+.section-two-items p{
+    font-size: 20px;
+    color: rgb(65, 64, 64);
+    margin:0;
+}
+
